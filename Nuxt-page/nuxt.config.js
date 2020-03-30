@@ -59,15 +59,8 @@ export default {
 	'@nuxtjs/proxy'
   ],
   axios: {
-  baseURL: 'https://val-auth-backend.herokuapp.com',
-    headers: {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*',
-    'Accept' : 'application/json, text/plain, */*',
-    'Access-Control-Allow-Methods' : 'GET, PUT, POST, DELETE, OPTIONS',
-    'Access-Control-Allow-Credentials' : true
-  }
-},
+	baseURL: 'https://val-auth-backend.herokuapp.com',
+	},
 
   auth: {
     strategies: {
