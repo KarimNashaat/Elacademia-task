@@ -58,7 +58,7 @@ export default {
     '@nuxtjs/auth'
   ],
   axios: {
-    baseURL: 'http:val-auth-backend.herokuapp.com'
+    baseURL: 'https://val-auth-backend.herokuapp.com/'
   },
 
   auth: {
